@@ -24,9 +24,9 @@ def ppp(n):
 
 def orbit(n,Col):
     '''
-    n is a integer
+    n is an integer
     Col is a string of color
-    this function gives the NO.n planet of the solar system
+    this function gives the orbit of the NO.n planet of the solar system
     '''
 
     pppp=ppp(n)
