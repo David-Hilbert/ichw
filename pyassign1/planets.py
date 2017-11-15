@@ -12,11 +12,22 @@ import math
 
 
 def eee(n):
+    '''
+    give the orbit parameter of NO.n planet
+    '''
     return (0.1+0.1*n)
 def ppp(n):
+    '''
+    give the orbit parameter of NO.n planet
+    '''
     return float(20+10*n)
 
 def orbit(n,Col):
+    '''
+    n is a integer
+    Col is a string of color
+    this function gives the NO.n planet of the solar system
+    '''
 
     pppp=ppp(n)
     eeee=eee(n)
@@ -38,6 +49,9 @@ def orbit(n,Col):
     return
 
 def main():
+    '''
+    main module
+    '''
     a=turtle.Pen()
     a.penup()
     a.goto(0,-5)
