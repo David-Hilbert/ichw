@@ -1,3 +1,10 @@
+"""currency.py: change one currency to another currency.
+
+__author__ = "Zhou Junjie"
+__pkuid__  = "1700011800"
+__email__  = "1700011800@pku.edu.cn"
+"""
+
 from urllib.request import urlopen
 
 def from_str_to_number(strings):
