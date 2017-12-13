@@ -1,3 +1,10 @@
+"""currency.py: change one currency to another currency.
+
+__author__ = "Zhou Junjie"
+__pkuid__  = "1700011800"
+__email__  = "1700011800@pku.edu.cn"
+"""
+
 from urllib.request import urlopen
 
 def from_str_to_number(strings):
@@ -36,9 +43,8 @@ def exchange(currency_from, currency_to, amount_from):
 def test_exchange():
 	'''
 	test the function exchange
-	since the exchange rate is changing every day,the only thing we can do is to test if the function returns a real number
 	'''
-	assert(exchange('USD', 'EUR', 2.5)==float(exchange('USD', 'EUR', 2.5)))
+	assert(exchange('EUR','USD',exchange('USD', 'EUR', 2.5))==2.5)
 	return
 def test_from_str_to_number():
 	'''
