@@ -13,6 +13,7 @@ from urllib.request import urlopen
 def wcount(lines, topn=10):
     """count words from lines of text string, then sort by their counts
     in reverse order, output the topn (word count), each in one line. 
+    'lines' is the strings,while 'topn' means we need the top n words
     """
     a=''
     for x in lines:
